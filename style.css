@@ -1,5 +1,7 @@
 *{
     color: white;
+    width: 85vw;
+    margin: auto;
 }
 
 body{
@@ -7,23 +9,19 @@ body{
     whidt: 100%;
 }
 
-#header{
+#cabecalho {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 header img{
-    width: 10vw;
-}
-
-h1{
-    text-align: center;
+    width: 8%;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 24px;
 }
 
@@ -77,13 +75,12 @@ footer > div{
     botton: 20px;
     display: flex;
     gap: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 20px; 0;
 }
 
 #copyright{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 #copyright span{
     font-style: italic;
